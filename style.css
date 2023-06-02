@@ -1,0 +1,19 @@
+article {
+    max-width: 960px;
+    margin: auto;
+}
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    border: 1px solid black;
+    margin-top: 2em;
+    box-shadow: 1px 1px 2px #7e7e7e;
+}

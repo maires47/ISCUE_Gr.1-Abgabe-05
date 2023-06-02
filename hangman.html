@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangman</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+<header>
+  <!-- Der <header>-Tag wird verwendet, um den Kopfbereich der Seite zu kennzeichnen -->
+  <h1>Hangman</h1>
+</header>
+<main>
+  <!-- Der <main>-Tag wird verwendet, um den Hauptinhalt der Seite zu kennzeichnen -->
+  <article>
+    <!-- Der <article>-Tag wird verwendet, um einen in sich geschlossenen, inhaltlich relevanten Abschnitt darzustellen -->
+    <canvas id="hangmanCanvas" width="400" height="400"></canvas>
+    <!-- Der <canvas>-Tag wird verwendet, um Grafiken und Zeichnungen darzustellen -->
+    <section>
+      <!-- Der <section>-Tag wird verwendet, um logische Abschnitte innerhalb des Artikels zu kennzeichnen -->
+      <h2>Guess the word:</h2>
+      <!-- Der <h2>-Tag wird verwendet, um eine Überschrift innerhalb der Sektion zu kennzeichnen -->
+      <p id="word"></p>
+      <!-- Der <p>-Tag wird verwendet, um einen Absatz innerhalb der Sektion zu kennzeichnen -->
+    </section>
+    <section>
+      <h2>Guess a letter:</h2>
+      <input type="text" id="guessInput">
+      <!-- Der <input>-Tag wird verwendet, um ein Eingabefeld darzustellen -->
+      <button class="checkGuess">Check</button>
+      <button class="getHint">Get a Hint</button>
+    </section>
+    <section>
+      <p id="result"></p>
+    </section>
+  </article>
+</main>
+
+<script src="game.js"></script>
+</body>
+</html>
